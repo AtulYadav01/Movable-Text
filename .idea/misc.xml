@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android Projects/Github/Movable Text/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Android Projects/Github/Movable Text/app/src/main/res/drawable/circleclose.xml" value="0.17592592592592593" />
+        <entry key="..\:/Android Projects/Github/Movable Text/app/src/main/res/drawable/cover.xml" value="0.17962962962962964" />
+        <entry key="..\:/Android Projects/Github/Movable Text/app/src/main/res/drawable/graycircle.xml" value="0.17592592592592593" />
+        <entry key="..\:/Android Projects/Github/Movable Text/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.17592592592592593" />
+        <entry key="..\:/Android Projects/Github/Movable Text/app/src/main/res/drawable/ic_baseline_turn_24.xml" value="0.23148148148148148" />
+        <entry key="..\:/Android Projects/Github/Movable Text/app/src/main/res/drawable/maincover.xml" value="0.23148148148148148" />
+        <entry key="..\:/Android Projects/Github/Movable Text/app/src/main/res/layout/activity_main.xml" value="0.176" />
       </map>
     </option>
   </component>

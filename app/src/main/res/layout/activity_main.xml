@@ -1,17 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-    <TextView
-        android:text="Hello World!"
-        android:textSize="26dp"
-        android:id="@+id/textViewId"
+    <FrameLayout
+        android:id="@+id/mainframe"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/closebutton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/close_button"
+            android:src="@drawable/close" />
+
+        <FrameLayout
+            android:id="@+id/frames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/myimge"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="@drawable/cover"
+                android:contentDescription="@string/main_image"
+                android:padding="8dp"
+                android:src="@drawable/processed" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/turnbutton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="bottom|right"
+            android:contentDescription="@string/turning_button"
+            android:src="@drawable/renewable"
+            tools:ignore="RtlHardcoded" />
+    </FrameLayout>
+
+    <com.a_lab.textarc.TextArc
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainframe"
+        android:layout_centerHorizontal="true"
+        app:center_angle="-90"
+        app:radius="45dp"
+        app:text="Gol Gol Text"
+        app:text_color="@color/red"
+        app:text_size="28sp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addimagesfab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/imageaddingbutton"
+        android:src="@drawable/ic_baseline_add_24" />
+</RelativeLayout>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Movable Text</string>
+    <string name="imageaddingbutton">imageaddingbutton</string>
+    <string name="turning_button">Turning Button</string>
+    <string name="main_image">Main Image</string>
+    <string name="close_button">Close Button</string>
 </resources>

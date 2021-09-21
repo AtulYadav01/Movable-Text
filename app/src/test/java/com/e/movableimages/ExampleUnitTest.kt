@@ -1,4 +1,4 @@
-package com.e.movabletext
+package com.e.movableimages
 
 import org.junit.Test
 
