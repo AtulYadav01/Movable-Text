@@ -1,6 +1,6 @@
 # Movable-Text
 
-From this repository you can learn how to make text Movable and Resizable, Just Open the MainActivity file and see the code.
+From this repository you can learn how to make text/Image Movable and Resizable, also you can check how to curve text in an Arc. Just Open the MainActivity file and see the code.
 
 For any queries you can contact me on
 
@@ -19,6 +19,6 @@ For any queries you can contact me on
 <div align="right">
 
 
-### Show some ❤️ by starring some of the repositories!
+### Show some ❤️ by starring the repository!
 
 </div>
